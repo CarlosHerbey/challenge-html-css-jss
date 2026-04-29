@@ -1,0 +1,88 @@
+body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: black;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.counter {
+    font-size: 48px;
+    color: white;
+    margin: 20px 0;
+}
+
+.btn-decrease {
+    background-color: rgba(255, 0, 0, 0.664);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-increase {
+    background-color: rgba(0, 255, 0, 0.664);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+.btn-decrease:hover {
+    background-color: rgba(255, 0, 0, 0.568);
+}
+
+.btn-increase:hover {
+    background-color: rgba(0, 255, 0, 0.568);
+}
+
+.btn-decrease:active {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.btn-increase:active {
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+.btn-reset {
+    background-color: rgba(0, 0, 255, 0.664);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-reset:hover {
+    background-color: rgba(0, 0, 255, 0.568);
+} 
+
+.btn-reset:active {
+    background-color: rgba(0, 0, 255, 0.8);
+}
